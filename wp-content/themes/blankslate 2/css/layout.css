@@ -1,195 +1,159 @@
-@import "variables";
-
 .container {
-  width: 100%;
-}
+  width: 100%; }
 
 .maxcontainer {
   max-width: 1140px;
   margin: 0 auto;
   padding-top: 6%;
-  padding-bottom: 6%;
-}
+  padding-bottom: 6%; }
 
 .team-container {
   width: 960px;
-  margin: 0 auto;
-}
-
-@mixin headings-common {
-  font-family: "avenir";
-  text-transform: uppercase;
-}
+  margin: 0 auto; }
 
 body {
-  margin: 0;
-  // padding: 20px
-}
+  margin: 0; }
 
 p {
   color: #777777;
   font-family: "avenir";
   font-size: 18px;
   letter-spacing: 1px;
-  line-height: 25px;
-}
+  line-height: 25px; }
 
 img {
-  display: block;
-}
+  display: block; }
 
 /* Site Header */
 h1 {
-  @include headings-common;
+  font-family: "avenir";
+  text-transform: uppercase;
   letter-spacing: 5px;
   font-size: 62px;
   font-weight: 700;
-  margin: 0;
-}
+  margin: 0; }
 
 /* Home - Section-header */
 h2 {
   font-family: "avenir";
   letter-spacing: 1.5px;
   font-size: 38px;
-  line-height: 1.25em;
-}
+  line-height: 1.25em; }
 
 /* Home - Sub-header */
 h3 {
   font-family: "avenir";
   letter-spacing: 2px;
   font-size: 24px;
-  color: white;
-}
+  color: white; }
 
 /* Team - Sub-header */
 h4 {
-  @include headings-common;
+  font-family: "avenir";
+  text-transform: uppercase;
   letter-spacing: 4px;
   font-size: 16px;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 /* Team - Member header */
 h5 {
-  @include headings-common;
+  font-family: "avenir";
+  text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 20px;
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 /* Team - Member sub-header */
 h6 {
-  @include headings-common;
+  font-family: "avenir";
+  text-transform: uppercase;
   letter-spacing: 1.5px;
   font-size: 18px;
-  font-weight: 400;
-}
+  font-weight: 400; }
 
 /******************** */
-
 .home-column-left {
   width: 40%;
   height: 100%;
   margin: 0;
-  float: left;
-}
+  float: left; }
 
 .home-column-right {
   width: 60%;
   height: 100%;
   padding-left: 0;
   margin: 0;
-  float: left;
-}
+  float: left; }
 
 .team-column-left {
   width: 20%;
   height: 100%;
   margin: 0;
-  float: left;
-}
+  float: left; }
 
 .team-column-right {
   width: 79.5%;
   height: 100%;
   padding-left: 0;
   float: left;
-  border-left: 1px solid #eeeeee;
-}
+  border-left: 1px solid #eeeeee; }
 
 .clearfix:before,
 .clearfix:after {
   content: "";
-  display: table;
-}
+  display: table; }
 
 .clearfix:after {
-  clear: both;
-}
+  clear: both; }
 
 .clearfix {
-  *zoom: 1;
-}
+  *zoom: 1; }
 
 @media all and (max-width: 1040px) {
   h1 {
-    @include headings-common;
-    font-size: 48px;
-  }
+    font-family: "avenir";
+    text-transform: uppercase;
+    font-size: 48px; }
+
   p {
     font-family: "avenir";
     font-size: 16px;
     letter-spacing: 1px;
-    line-height: 27px;
-  }
-}
-
+    line-height: 27px; } }
 @media all and (max-width: 875px) {
   h1 {
-    font-size: 32px;
-  }
-}
-
+    font-size: 32px; } }
 @media all and (max-width: 680px) {
   h1 {
-    font-size: 24px;
-  }
-}
-
+    font-size: 24px; } }
 @media all and (max-width: 580px) {
   p {
-    font-size: 14px;
-  }
+    font-size: 14px; }
+
   h1 {
-    font-size: 16px;
-  }
+    font-size: 16px; }
+
   .home-column-left {
     width: 100%;
-    height: 100px;
-    .home-heading {
+    height: 100px; }
+    .home-column-left .home-heading {
       text-align: center;
       padding-left: 0;
-      margin: 0 auto;
-    }
-  }
+      margin: 0 auto; }
+
   .home-column-right {
-    width: 100%;
-    .home-copy {
+    width: 100%; }
+    .home-column-right .home-copy {
       margin: 0 auto;
       padding-left: 20px;
-      padding-right: 20px;
-    }
-  }
+      padding-right: 20px; }
+
   .team-column-left {
     width: 100%;
     height: 50px;
     margin: 0;
-    text-align: center;
-  }
+    text-align: center; }
+
   .team-column-right {
     width: 100%;
-    height: 100%;
-  }
-}
+    height: 100%; } }

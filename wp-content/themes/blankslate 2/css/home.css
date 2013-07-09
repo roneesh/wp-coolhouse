@@ -1,123 +1,84 @@
-@import "../base/variables";
-
-// Top section of home page
 .hero {
   width: 100%;
   height: 795px;
   background-image: url("https://s3.amazonaws.com/coolhouse-images/coolhouse_hero.jpg");
-  background-size: cover;
-}
+  background-size: cover; }
 
 .hero-copy-container {
   width: 60%;
   height: 335px;
   float: right;
   margin-top: 250px;
-  background-color: rgba(0, 0, 0, 0.6);
-}
+  background-color: rgba(0, 0, 0, 0.6); }
 
 .tagline {
   color: white;
-  margin: 0;
-}
+  margin: 0; }
 
 .hero-copy {
   color: white;
-  padding: 60px;
-  hr {
+  padding: 60px; }
+  .hero-copy hr {
     width: 50px;
     margin-left: 0;
-    border-color: $teal;
-  }
-}
+    border-color: #007481; }
 
-// Refactor - Heading
 .home-heading {
-  padding-left: 50px;
-}
+  padding-left: 50px; }
 
 .home-copy {
-  padding-right: 70px;
-}
+  padding-right: 70px; }
 
-// Program Section
 .program {
-  width: 100%;
-}
+  width: 100%; }
 
 .program-copy-header {
-  color: $green;
-}
+  color: #6fa031; }
 
-// Cohort Section
 .cohort {
   max-width: 100%;
-  background: $gray;
-}
+  background: whitesmoke; }
 
 .cohort-copy-header {
-  color: $teal;
-}
+  color: #007481; }
 
-// Culture Section
 .culture {
   width: 100%;
-  background: $green;
-  p {
-    color: white;
-  }
-}
+  background: #6fa031; }
+  .culture p {
+    color: white; }
 
 .culture-image {
   z-index: 1;
   position: relative;
-  width: 100%;
-}
+  width: 100%; }
 
-// Image Carousel
 .home-image-carousel {
   margin-top: -35%;
-  width: 100%;
-  img {
-    width: 100%;
-  }
-}
+  width: 100%; }
+  .home-image-carousel img {
+    width: 100%; }
 
-// Demo Day
 .demo-day {
   width: 100%;
   border: 1px solid black;
-  background: $teal;
-  p {
-    color: white;
-  }
-}
+  background: #007481; }
+  .demo-day p {
+    color: white; }
 
-// location
 .location {
-  width: 100%;
-  img {
-    width: 100%;
-  }
-}
+  width: 100%; }
+  .location img {
+    width: 100%; }
 
 @media all and (max-width: 580px) {
   .hero-copy-container {
     width: 60%;
     height: auto;
-    margin-top: 100px;
-  }
-}
-
-@media all and (min-width: 1100px) {
-  .home-image-carousel {}
-}
-
+    margin-top: 100px; } }
 @media all and (min-width: 0px) and (max-width: 580px) {
   .culture-image {
-    display: none;
-  }
+    display: none; }
+
   .home-image-carousel {
-    margin-top: 0;
-  }
-}
+    margin-top: 0; } }

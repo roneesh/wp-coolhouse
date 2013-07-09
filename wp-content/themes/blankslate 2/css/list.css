@@ -1,0 +1,119 @@
+.cohort-list {
+  list-style-type: none;
+  margin-left: 0;
+  padding-left: 0; }
+  .cohort-list li a {
+    font-family: "league gothic";
+    letter-spacing: 1.5px;
+    font-size: 68px;
+    line-height: 1.25em;
+    color: black; }
+  .cohort-list li:before {
+    content: "> ";
+    font-size: 72px;
+    line-height: 0.5em;
+    color: #eaeaea; }
+
+.social-media-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  .social-media-list li {
+    max-width: 25px;
+    max-height: 25px;
+    float: left;
+    margin-right: 10px; }
+    .social-media-list li a img {
+      max-width: 25px; }
+
+.team-list {
+  list-style-type: none;
+  margin: 0 auto; }
+  .team-list p {
+    color: white; }
+  .team-list li.col2 {
+    float: left;
+    width: 47.85833%;
+    margin: 1.04167%; }
+    .team-list li.col2 p {
+      padding: 10px; }
+  .team-list li.col3 {
+    float: left;
+    margin: 1.04167%;
+    width: 31.25%; }
+  .team-list img {
+    width: 100%; }
+
+.fellows-list {
+  list-style-type: none; }
+  .fellows-list li {
+    float: left;
+    width: 31.25%;
+    margin: 1.04167%;
+    overflow: hidden;
+    max-height: 356px; }
+    .fellows-list li img {
+      width: 100%; }
+
+.advisor-list {
+  list-style-type: none;
+  padding-left: 40px; }
+  .advisor-list .mentor-name {
+    margin-top: 0; }
+  .advisor-list li {
+    border-bottom: 1px solid #eeeeee;
+    padding-bottom: 50px;
+    margin-bottom: 40px; }
+  .advisor-list li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+    margin-bottom: 0; }
+
+.additional-mentors-list {
+  list-style-type: none;
+  padding-left: 40px; }
+  .additional-mentors-list li {
+    padding-top: 5px; }
+
+@media all and (max-width: 580px) {
+  .team-list {
+    list-style-type: none;
+    margin: 0 auto; }
+    .team-list li.col2 {
+      float: left;
+      width: 47.85833%;
+      margin: 1.04167%; }
+      .team-list li.col2 p {
+        padding: 5px; }
+      .team-list li.col2 .team-member {
+        height: 100px; }
+    .team-list li.col3 {
+      float: left;
+      margin: 1.04167%;
+      width: 31.25%; }
+      .team-list li.col3 p {
+        padding: 5px; }
+      .team-list li.col3 .team-member {
+        height: 128px; }
+    .team-list img {
+      width: 100%; }
+
+  .fellows-list {
+    list-style-type: none; }
+    .fellows-list li {
+      float: left;
+      width: 31.25%;
+      margin: 1.04167%;
+      overflow: hidden;
+      max-height: 356px; }
+      .fellows-list li img {
+        width: 100%; }
+
+  .advisor-list li {
+    padding-bottom: 10px; }
+
+  .cohort-list li a {
+    font-family: "avenir";
+    font-size: 20px; }
+  .cohort-list li:before {
+    font-size: 20px; } }
