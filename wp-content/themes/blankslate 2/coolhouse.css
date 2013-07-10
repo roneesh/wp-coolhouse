@@ -656,6 +656,12 @@ a {
   font-family: "league gothic";
   src: url(/assets/fonts/LeagueGothic-CondensedRegular.otf); }
 /********** Button ********** */
+
+.more-link {
+  color: #777777;
+  background-color: white
+}
+
 .button_dk-gray {
   background-color: #2f2f2f;
   padding: 25px 50px;

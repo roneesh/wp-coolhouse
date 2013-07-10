@@ -8,7 +8,7 @@
     </a>
   </h2>
   <hr>
-  <p> July 7, 2013 </p>
+  <p> <?php the_date(); ?>  </p>
 </div>
 <?php // get_template_part( 'entry', 'meta' ); ?>
 
