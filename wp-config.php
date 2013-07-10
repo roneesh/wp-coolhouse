@@ -26,12 +26,12 @@ define('DB_PASSWORD', $mysql_config["password"]);
 define('DB_HOST', $mysql_config["hostname"]);
 define('DB_PORT', $mysql_config["port"]);
 
-// define('DB_NAME', 'coolhouse-mysql-22939');
+// define('DB_NAME', 'wordpress');
 
 // /** MySQL database username */
 // define('DB_USER', 'root');
 
-// * MySQL database password 
+// // * MySQL database password 
 // define('DB_PASSWORD', 'root');
 
 // /** MySQL hostname */

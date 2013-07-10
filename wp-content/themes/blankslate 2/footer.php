@@ -38,28 +38,28 @@
   </div>
 
   <div class="nav-right">
-    <a href="/wordpress">
+    <a href="http://coolhouse.aws.af.cm/program/">
       <div class="nav-right-link program-link">
         <p>
           Program
         </p>
       </div>
     </a>
-    <a href="/wordpress/?page_id=20">
+    <a href="http://coolhouse.aws.af.cm/blog/">
       <div class="nav-right-link blog-link">
         <p>
           Blog
         </p>
       </div>
     </a>
-    <a href="/wordpress/?page_id=14 ">
+    <a href="http://coolhouse.aws.af.cm/team/">
       <div class="nav-right-link team-link">
         <p>
           Team
         </p>
       </div>
     </a>
-    <a href="/sponsors">
+    <a href="http://coolhouse.aws.af.cm/sponsors">
       <div class="nav-right-link connect-link">
         <p>
           Sponsors
