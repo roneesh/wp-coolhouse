@@ -16,16 +16,26 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'wordpress');
 
-/** MySQL database username */
-define('DB_USER', 'root');
+$services = getenv("VCAP_SERVICES");
+$services_json = json_decode($services,true);
+$mysql_config = $services_json["mysql-5.1"][0]["credentials"];
+define('DB_NAME', $mysql_config["name"]);
+define('DB_USER', $mysql_config["user"]);
+define('DB_PASSWORD', $mysql_config["password"]);
+define('DB_HOST', $mysql_config["hostname"]);
+define('DB_PORT', $mysql_config["port"]);
 
-/** MySQL database password */
-define('DB_PASSWORD', 'root');
+// define('DB_NAME', 'coolhouse-mysql-22939');
 
-/** MySQL hostname */
-define('DB_HOST', 'localhost');
+// /** MySQL database username */
+// define('DB_USER', 'root');
+
+// * MySQL database password 
+// define('DB_PASSWORD', 'root');
+
+// /** MySQL hostname */
+// define('DB_HOST', 'localhost');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');

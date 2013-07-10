@@ -28,4 +28,33 @@ License URI: https://www.gnu.org/licenses/gpl.html
 @import url('css/nav.css');
 @import url('css/teams.css');*/
 
-@import url('coolhouse.css')
+@import url('coolhouse.css');
+
+/*#nav-below {
+  width: 100%;
+  height: 50px;
+  background: yellow;
+}
+.nav-previous {}
+.nav-next {}
+*/
+
+.meta-nav {
+  font-size: 72px;
+  margin: 20px;
+  color: #777777;
+}
+
+.nav-previous {
+  float: left;
+}
+
+.nav-next {
+  float: right;
+}
+
+#nav-below {
+  padding-bottom: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+}

@@ -548,7 +548,8 @@ h6 {
   height: 100%;
   margin: 0;
   float: left;
-  padding-right: 5%; }
+  padding-right: 5%;
+  padding-bottom: 100px; }
 
 .clearfix:before,
 .clearfix:after {
@@ -632,8 +633,7 @@ a:hover {
   background: #6fa031; }
 
 a {
-  color: white;
-  background-color: whitesmoke;
+  color: #777777;
   font-family: "intro_regularregular", sans-serif;
   -webkit-transition-property: color;
   -moz-transition-property: all;
@@ -659,7 +659,6 @@ a {
 
 .more-link {
   color: #777777;
-  background-color: white
 }
 
 .button_dk-gray {
