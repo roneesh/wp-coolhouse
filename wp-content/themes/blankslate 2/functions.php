@@ -1,13 +1,4 @@
 <?php
-// SASS/SCSS Stylesheet Definition
-function generate_css() {
-if(function_exists('wpsass_define_stylesheet')) {
-wpsass_define_stylesheet("coolhouse_styles.sass", true);
-}
-}
-add_action( 'after_setup_theme', 'generate_css' );
-
-
 add_action('after_setup_theme', 'blankslate_setup');
 function blankslate_setup(){
 load_theme_textdomain('blankslate', get_template_directory() . '/languages');
