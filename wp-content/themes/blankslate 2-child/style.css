@@ -1,0 +1,13 @@
+/*
+Theme Name:     Blank Slate Child
+Description:    Child theme for the Blank Slate Theme
+Author:         Roneesh Vashisht
+Template:       blankslate 2                             
+Version:        0.1.0
+*/
+
+@import url("../blankslate 2/style.css");
+
+body {
+	background: yellow;
+}

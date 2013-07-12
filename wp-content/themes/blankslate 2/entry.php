@@ -1,4 +1,5 @@
-<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<div class="maxcontainer">
+<div id="post-<?php the_ID(); ?>" <?php post_class('clearfix'); ?>>
 
 <!-- Should be where column left is -->
 <div class="blog-roll-column-left">
@@ -29,3 +30,4 @@ get_template_part('entry','content');
 // }
 ?>
 </div> 
+</div>

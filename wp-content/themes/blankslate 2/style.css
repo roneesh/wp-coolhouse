@@ -58,3 +58,34 @@ License URI: https://www.gnu.org/licenses/gpl.html
   padding-left: 10%;
   padding-right: 10%;
 }
+
+.nav-link {
+  float: right;
+  margin-right: 25px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  color: white;
+  background-color: rgba(255,255,255,0);
+}
+
+.nav-name {
+  color: white;
+  float: left;
+  margin-left: 25px;  
+}
+
+body {
+  margin-top: -30px;
+}
+
+.page-template-page-bloghome-php .nav-link, .page-template-page-bloghome-php .nav-name  {
+  color: #777777;
+} 
+
+.page-id-14 .nav-link, .page-id-14 .nav-name {
+  color: #777777;
+}
+
+.blog-roll {
+  list-style-type: none;
+}

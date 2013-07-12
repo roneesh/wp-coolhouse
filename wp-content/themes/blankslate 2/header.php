@@ -7,8 +7,28 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?>>
-<div id="wrapper" class="hfeed">
+<!-- <div id="wrapper" class="hfeed">
 <header>
 
-</header>
+</header> -->
+<nav>
+  <p class="nav-name">
+    Coolhouse Labs
+  </p>
+  <a class="nav-link" href="#connect">
+    Connect
+  </a>
+  <a class="nav-link" href="/sponsrs">
+    Sponsors
+  </a>
+  <a class="nav-link" href="/blog">
+    Blog
+  </a>
+  <a class="nav-link" href="/team">
+    Team
+  </a>
+  <a class="nav-link" href="/program">
+    Program
+  </a>
+</nav>
 <div id="container">

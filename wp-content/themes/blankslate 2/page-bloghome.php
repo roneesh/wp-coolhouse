@@ -13,7 +13,7 @@
 
 <ul class="blog-roll clearfix">
 
-<!-- <div id="content"> -->
+<!-- <div id="<center></center>ontent"> -->
 <?php //get_template_part( 'nav', 'above' ); ?>
 <?php while ( have_posts() ) : the_post() ?>
   <?php global $more; $more = 0; ?>
